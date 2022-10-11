@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    }
+
+.main-wrapper{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    }
+
+header{
+    height: 120px;
+    background-color: #e3000b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.logo{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.commercialAds{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    grid-template-columns: 50% 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+.comercialAdSection{ 
+    background-color: white;
+    margin-bottom: 40px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+.adPhoto{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    background-size: cover;
+    align-items: center;
+    }
+
+.adPrice{
+    width: 80px;
+    border-radius: 50px;
+    height: 80px;
+    background-color: #ffed00;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;  
+    }
+
+.adTitle{
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    }
+
+.buttonSection {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    }
+  
+.button {
+    width: 15%;
+    font-size: 18px;
+    height: 40px;
+    background-color: #ffed00;
+    border: none;
+    cursor: pointer;
+    }
+
+.seeButtonSection {
+    margin-bottom: 30px;
+    width: 400px;
+    height: 60px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    }
+      
+.seeButton {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    height: 40px;
+    background-color: #e3000b;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    }
+
+
+.seeButton:hover {
+    font-weight: 700;   
+    font-size: 24px;   
+    color: black;
+    }
